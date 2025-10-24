@@ -31,8 +31,8 @@ import StarDivider from '../component/Reuseable/StarDivider'
                 </div>
             </div>
         </div>
-        <div className='md:mt-25 mt-10 text-purple-100 text-center md:px-40'>
-            <p className='w-90 md:w-full'>
+        <div className='flex justify-center items-center md:mt-25 mt-10 text-purple-100 text-center md:px-40'>
+            <p className=' md:w-full'>
                  I’m a passionate Blockchain Developer focused on building secure, efficient, and user-friendly decentralized solutions.
                  I specialize in smart contracts, Web3 integrations, and DeFi applications, with a strong interest in how blockchain can power 
                  the next generation of digital ownership and trust. My work blends clean code, innovation, 

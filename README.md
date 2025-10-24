@@ -1,12 +1,29 @@
-# React + Vite
+My Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+I’m Kosisochukwu Ugwu, a passionate Blockchain Developer focused on writing smart contracts and building secure, efficient, and user-friendly decentralized applications (dApps).  
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, skills, and experience in Web3, smart contracts, and frontend development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React + Vite + Tailwind CSS  
+Blockchain: Solidity, Web3.js / Ethers.js, Hedera  
+Deployment: Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+ Features
+- Smooth navigation and responsive design  
+- Interactive sections for Projects, About, and Contact  
+- Optimized for performance and accessibility  
+
+
+
+📬 Contact
+Live Site: [kosichinaza.dev](www.kosichinaza.dev)
+LinkedIn: [https://www.linkedin.com/in/kosisochukwu-ugwu-4b2503275](#)
+GitHub: [KosiChinaza](https://github.com/KosiChinaza)
+-Email: ugwukosisochukwu135@gmail.com  
+
+ Feel free to explore my work and reach out for collaboration!
