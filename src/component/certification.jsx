@@ -14,12 +14,12 @@ import { useInView } from 'react-intersection-observer'
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
     >
-      {/* Background Glow */}
+     
       <div className="absolute inset-0 flex justify-center">
         <div className="w-[600px] h-[400px] bg-purple-600/40 blur-[200px] rounded-full"></div>
       </div>
 
-      <h1 className="text-3xl text-purple-200 font-semibold px-5 mb-12 relative z-10">Certification</h1>
+      <h1 className="text-3xl text-purple-300 font-semibold px-5 mb-12 relative z-10">Certification</h1>
 
       <div className={`bg-gradient-to-br from-[#1c0f2e] to-[#24103d] h-full rounded-2xl shadow-lg p-6 transform transition-all duration-1000 ${
         inView

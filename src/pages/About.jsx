@@ -1,6 +1,5 @@
 import React from 'react'
-import Skills from '../component/skills'
-import Certification from '../component/certification'
+import Services from '../component/Services'
 import Experience from '../component/Experience'
 import StarDivider from '../component/Reuseable/StarDivider'
 
@@ -8,7 +7,7 @@ import StarDivider from '../component/Reuseable/StarDivider'
   return (
     <div className='overflow-hidden'>
         <div>
-           <div className='md:mt-15 mt-5 md:ml-10 px-4 md:px-0 text-white text-center md:text-left'>
+           <div className='md:pt-15 pt-5 md:ml-10 px-4 md:px-0 text-white text-center md:text-left'>
                <h2 className='text-purple-100'>Hello! I am   <span className='text-purple-700 text-2xl md:text-3xl sm:text-2xl'>Kosisochukwu Ugwu</span></h2>
            </div>
            <div className='flex flex-col md:flex-row items-center justify-center md:justify-start gap-10 md:gap-20 mt-10 md:mt-15'>
@@ -33,17 +32,12 @@ import StarDivider from '../component/Reuseable/StarDivider'
         </div>
         <div className='flex justify-center items-center md:mt-25 mt-10 text-purple-100 text-center md:px-40'>
             <p className=' md:w-full'>
-                 I’m a passionate Blockchain Developer focused on building secure, efficient, and user-friendly decentralized solutions.
+                 I am a passionate Blockchain Developer focused on building secure, efficient, and user-friendly decentralized solutions.
                  I specialize in smart contracts, Web3 integrations, and DeFi applications, with a strong interest in how blockchain can power 
                  the next generation of digital ownership and trust. My work blends clean code, innovation, 
                  and real-world impact, turning complex ideas into seamless decentralized experiences. I am eager to learn and grow and always
                   make positive impact and contribution in any environment I find myself.
             </p>
-        </div>
-        
-        <StarDivider/>
-       <div>
-            <Skills/>
         </div>
         
           <StarDivider/>
@@ -52,11 +46,6 @@ import StarDivider from '../component/Reuseable/StarDivider'
             <Experience/>
         </div>
 
-        <StarDivider/>
-
-        <div>
-            <Certification/>
-        </div>
     </div>
 
     
@@ -64,4 +53,3 @@ import StarDivider from '../component/Reuseable/StarDivider'
 }
 export default About
 
-//border-4 border-purple-500 rounded-full px-4 py-1 inline-block

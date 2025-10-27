@@ -26,17 +26,20 @@ export default function Experience() {
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
     >
-      {/* Background Glow */}
-      <div className="absolute inset-0 flex justify-center ">
-        <div className="w-[600px] h-[600px] bg-purple-600/40 blur-[200px] rounded-full"></div>
-      </div>
+    <div className="relative flex flex-col items-start justify-start px-5">
+      <div className="absolute inset-0">
+        <div className="w-[600px] h-[200px] bg-purple-600/40 blur-[200px] rounded-full"></div>
+     </div>
 
-      <h1 className="text-3xl px-5 text-purple-200 font-semibold mb-12 relative z-10">Work Experience</h1>
+         <h1 className="text-3xl text-purple-300 font-semibold mb-10 relative z-10">
+             Work Experience
+         </h1>
+    </div>
 
-      {/* Cards */}
+    <div className='h-100 flex flex-col justify-center mt-7'>
       <div className="grid md:grid-cols-2 gap-8 relative px-5 z-10 w-full max-w-5xl">
        {cardsData.map((card, i) => (
-    <div
+      <div
       key={i}
       style={{ transitionDelay: `${i * 150}ms` }}
       className={`bg-gradient-to-br from-[#1c0f2e] to-[#24103d] rounded-2xl shadow-lg p-6 transform transition-all duration-1000 ${
@@ -44,7 +47,7 @@ export default function Experience() {
           ? "opacity-100 translate-y-0 scale-100"
           : "opacity-0 translate-y-12 scale-95"
       }`}
-    >
+      >
       
       <div className='flex items-center justify-center h-30 '>
         <img
@@ -57,10 +60,10 @@ export default function Experience() {
       
       <div>
         <p className="text-purple-200 text-2xl text-center font-semibold px-3">{card.description}</p>
-        
       </div>
     </div>
   ))}
+   </div>
 </div>
  </section>
   );

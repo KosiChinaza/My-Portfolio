@@ -61,4 +61,3 @@ import {FaGithub, FaLinkedin, FaTwitter, FaDiscord, FaTelegram} from 'react-icon
 }
 export default Footer
 
-//Ugwu Kosisochukwu. All Right Reserved.

@@ -31,12 +31,12 @@ const ContactSection = () => {
   return (
    <div>
       <div className="relative flex flex-col md:flex-row h-screen text-white">
-         {/* Left section with purple glow */}
+    
         <div className="flex-1 bg-[radial-gradient(circle_at_center,_rgba(168,85,247,0.4)_0%,_black_80%)] flex items-center justify-center">
         <h1 className="text-purple-400 italic text-5xl font-bold">KOSY</h1>
       </div>
 
-      {/* Right section with contact form */}
+   
       <div className="flex-1 bg-black flex flex-col items-center justify-center p-8">
         <h2 className="text-3xl font-semibold mb-6 text-purple-400">Contact Me</h2>
 
