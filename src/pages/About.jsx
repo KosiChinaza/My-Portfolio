@@ -32,11 +32,11 @@ import StarDivider from '../component/Reuseable/StarDivider'
         </div>
         <div className='flex justify-center items-center md:mt-25 mt-10 text-purple-100 text-center md:px-40'>
             <p className=' md:w-full'>
-                 I am a passionate Blockchain Developer focused on building secure, efficient, and user-friendly decentralized solutions.
-                 I specialize in smart contracts, Web3 integrations, and DeFi applications, with a strong interest in how blockchain can power 
-                 the next generation of digital ownership and trust. My work blends clean code, innovation, 
-                 and real-world impact, turning complex ideas into seamless decentralized experiences. I am eager to learn and grow and always
-                  make positive impact and contribution in any environment I find myself.
+                 I am a Software Engineer with a strong focus on Frontend and Blockchain development. I build secure, efficient, 
+                 and user-friendly web and decentralized applications that bridge traditional and Web3 technologies. My experience
+                  spans smart contract development, Web3 integrations, and modern frontend frameworks like React, creating seamless and scalable user experiences.
+                   I am passionate about using clean code and innovation to deliver real-world impact, 
+                 and I am always eager to learn, collaborate, and contribute meaningfully to any team or project I am part of.
             </p>
         </div>
         

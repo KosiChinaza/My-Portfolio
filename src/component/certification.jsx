@@ -29,7 +29,7 @@ import { useInView } from 'react-intersection-observer'
         <div className='flex flex-col items-center gap-20 text-3xl font-bold text-purple-200 items-center '>
            <h2>Hedera Certificate</h2>
            <img src="/certificate.png" className="h-70 pb-6" alt="Certificate Photograph" />
-           <a href='/HederaCertificate.pdf' target='blank' rel='noopener noreferrer' className='flex h-10 w-full justify-center rounded-md text-2xl font-semibold text-purple-100 hover:px-2 hover:py-2 hover:rounded-xl hover:shadow-[0_0_20px_#a855f7] hover:text-purple-200 hover:bg-black'>View Full Certificate</a>
+           <a href='/HederaCertificate.pdf' target='blank' rel='noopener noreferrer' className='flex h-13  justify-center rounded-md text-2xl font-semibold text-purple-100 hover:py-2 hover:px-4 hover:rounded-xl hover:shadow-[0_0_20px_#a855f7] hover:text-purple-200 hover:bg-black'>View Full Certificate</a>
         </div>
         
       </div>
