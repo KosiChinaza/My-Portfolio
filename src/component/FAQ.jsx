@@ -24,7 +24,7 @@ const faqs = [
   {
     question: "What tools do you use?",
     answer:
-      "I use React, Tailwind CSS, JavaScript, Solidity, and ethers.js to build scalable, beautiful web apps and DApps, and to write secure smart contracts.",
+      "I use React, Tailwind CSS, TypeScript, JavaScript, Solidity, and ethers.js to build scalable, beautiful web apps and DApps, and to write secure smart contracts.",
     iconBg: "bg-green-100",
     iconColor: "text-green-500",
     icon: "🛠️",

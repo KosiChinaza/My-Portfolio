@@ -32,9 +32,10 @@ import StarDivider from '../component/Reuseable/StarDivider'
         </div>
         <div className='flex justify-center items-center md:mt-25 mt-10 text-purple-100 text-center md:px-40'>
             <p className=' md:w-full'>
-                 I am a Software Engineer with a strong focus on Frontend and Blockchain development. I build secure, efficient, 
+                 I am a Software Developer with a strong focus on Frontend and Blockchain development. I build secure, efficient, 
                  and user-friendly web and decentralized applications that bridge traditional and Web3 technologies. My experience
-                  spans smart contract development, Web3 integrations, and modern frontend frameworks like React, creating seamless and scalable user experiences.
+                  spans writing and deploying secure and scalable smart contract, Web3 integrations, and use of modern frontend frameworks like React and TypeScript, 
+                  creating seamless and scalable user experiences.
                    I am passionate about using clean code and innovation to deliver real-world impact, 
                  and I am always eager to learn, collaborate, and contribute meaningfully to any team or project I am part of.
             </p>
