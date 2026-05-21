@@ -1,63 +1,48 @@
-import React from 'react'
-import {FaGithub, FaLinkedin, FaTwitter, FaDiscord, FaTelegram} from 'react-icons/fa';
+import { NAV_LINKS } from "../../data/index";
 
- function Footer() {
+/**
+ * Site footer — fully mobile responsive.
+ * Stacks vertically on mobile, row layout on md+.
+ */
+export default function Footer() {
+  const scrollTo = (id) => {
+    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <footer className='text-purple-200 md:mx-15 py-6 md:px-10 bg-black'>
-      <div className=''>
-        <div className='flex justify-center  md:justify-start'>
-            <p>Connect with me</p>
+    <footer className="bg-purple-800 py-8 px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+        {/* Brand */}
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="font-black text-white text-xl text-center md:text-left"
+          style={{ fontFamily: "'Syne', sans-serif" }}
+        >
+          KOSY.
+        </button>
+
+        {/* Nav links — wraps on mobile */}
+        <div className="flex flex-wrap gap-x-5 gap-y-3 justify-center">
+          {NAV_LINKS.map((link) => (
+            <button
+              key={link}
+              onClick={() => scrollTo(link)}
+              className="text-purple-200/70 hover:text-white text-xs uppercase tracking-wider transition-colors duration-200"
+            >
+              {link}
+            </button>
+          ))}
         </div>
-        <div className='md:flex  justify-between py-4'>
-          <div className=' flex justify-center md:justify-start space-x-6 text-3xl'>
-            <a href='https://github.com/KosiChinaza'
-            target='_blank'
-            rel='noopener noreferrer'
-            className=''>
-                <FaGithub/>
-            </a>
 
-            <a href='https://www.linkedin.com/in/kosisochukwu-ugwu-4b2503275'
-            target='_blank'
-            rel='noopener noreferrer'
-            className=''>
-                <FaLinkedin/>
-            </a>
-
-            <a href='https://x.com/kosiee2'
-            target='_blank'
-            rel='noopener noreferrer'
-            className=''>
-                <FaTwitter/>
-            </a>
-
-            <a href='https://discord.com/users/1256981739130060841'
-            target='_blank'
-            rel='noopener noreferrer'
-            className=''>
-                <FaDiscord/>
-            </a>
-
-            <a href='https://t.me/DefiGirl_Siso'
-            target='_blank'
-            rel='noopener noreferrer'
-            className=''>
-                <FaTelegram/>
-            </a>
-          </div>
-          <div className="hidden md:block text-base mt-4 flex justify-end">
-            < p>
-                 &copy; {new Date().getFullYear()} UGWU KOSISOCHUKWU. ALL RIGHTS RESERVED.
-              </p>
-          </div>
-
-          <div className='md:hidden text-sm md:text-base md:mt-0 mt-4 flex justify-center md:justify-end'>
-            <p>&copy; {new Date().getFullYear()} Ugwu Kosisochukwu. All Right Reserved.  </p>
-          </div>
-      </div>
+        {/* Copyright */}
+        <div className="text-purple-300/50 text-xs text-center md:text-right">
+          © {new Date().getFullYear()} Kosisochukwu Ugwu.
+          <br className="sm:hidden" />
+          <span className="hidden sm:inline"> </span>
+          All rights reserved.
+        </div>
       </div>
     </footer>
-  )
+  );
 }
-export default Footer
-
