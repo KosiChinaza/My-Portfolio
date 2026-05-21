@@ -32,7 +32,7 @@ const CERTS = [
   },
 ];
 
-// ─── Single certificate card 
+//  Single certificate card 
 function CertCard({ cert, darkMode }) {
   const [hovered, setHovered] = useState(false);
 

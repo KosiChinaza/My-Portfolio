@@ -20,7 +20,7 @@ export default function Contact({ darkMode }) {
         {/* Stack on mobile, side-by-side on md+ */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-14 md:gap-20 items-start">
 
-          {/* ── Left: brand + email + socials ── */}
+          {/* ── Left: brand + email + socials  */}
           <FadeInSection>
             <div className={`text-xs uppercase tracking-widest mb-3 sm:mb-4 ${darkMode ? "text-purple-500" : "text-purple-600"}`}>— Get In Touch</div>
 
@@ -63,7 +63,7 @@ export default function Contact({ darkMode }) {
             </div>
           </FadeInSection>
 
-          {/* ── Right: form ── */}
+          {/* ── Right: */}
           <FadeInSection delay={0.15}>
             <div className={`p-5 sm:p-8 border ${darkMode ? "border-purple-900/40 bg-[#07070f]" : "border-purple-100 bg-white"}`}>
               <h3 className={`text-lg sm:text-xl font-black mb-5 sm:mb-6 ${darkMode ? "text-white" : "text-gray-900"}`} style={{ fontFamily: "'Syne', sans-serif" }}>
