@@ -76,7 +76,7 @@ export default function Collaborators({ darkMode }) {
           ))}
         </motion.div>
 
-        {/* Fade edges, narrower on mobile */}
+        {/* Fade edges - narrower on mobile */}
         <div className={`absolute inset-y-0 left-0 w-8 sm:w-24 pointer-events-none ${darkMode ? "bg-gradient-to-r from-black to-transparent" : "bg-gradient-to-r from-gray-50 to-transparent"}`} />
         <div className={`absolute inset-y-0 right-0 w-8 sm:w-24 pointer-events-none ${darkMode ? "bg-gradient-to-l from-black to-transparent" : "bg-gradient-to-l from-gray-50 to-transparent"}`} />
       </div>

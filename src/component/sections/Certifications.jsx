@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import FadeInSection from "../Reuseable/FadeInSection";
 
-// Certificate data 
+// - Certificate data 
 const CERTS = [
   {
     issuerIcon: "⬡",

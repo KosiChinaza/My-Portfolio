@@ -63,7 +63,7 @@ export default function Contact({ darkMode }) {
             </div>
           </FadeInSection>
 
-          {/* ── Right: */}
+          {/* ── Right: from - */}
           <FadeInSection delay={0.15}>
             <div className={`p-5 sm:p-8 border ${darkMode ? "border-purple-900/40 bg-[#07070f]" : "border-purple-100 bg-white"}`}>
               <h3 className={`text-lg sm:text-xl font-black mb-5 sm:mb-6 ${darkMode ? "text-white" : "text-gray-900"}`} style={{ fontFamily: "'Syne', sans-serif" }}>
