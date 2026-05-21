@@ -1,7 +1,7 @@
-// ─── NAVIGATION ──────────────────────────────────────────────────────────────
+// ─── NAVIGATION 
 export const NAV_LINKS = ["About", "Services", "Projects", "Certifications", "Contact"];
 
-// ─── SERVICES ────────────────────────────────────────────────────────────────
+// ─── SERVICES 
 export const SERVICES = [
   {
     icon: "</>",
@@ -25,7 +25,7 @@ export const SERVICES = [
   },
 ];
 
-// ─── PROJECTS ─────────────────────────────────────────────────────────────────
+// ─── PROJECTS 
 //
 // type: "web"      → renders a live scaled iframe with hover overlay
 // type: "contract" → renders a blockchain explorer card (no iframe needed)
@@ -90,7 +90,7 @@ export const PROJECTS = [
   },
 ];
 
-// ─── COLLABORATORS ────────────────────────────────────────────────────────────
+// ─── COLLABORATORS 
 export const COLLABORATORS = [
   {
     initials: "PU",
@@ -130,7 +130,7 @@ export const COLLABORATORS = [
   },
 ];
 
-// ─── FAQ ─────────────────────────────────────────────────────────────────────
+// ─── FAQ 
 export const FAQS = [
   {
     icon: "✦",
@@ -154,7 +154,7 @@ export const FAQS = [
   },
 ];
 
-// ─── TECH STACK ───────────────────────────────────────────────────────────────
+// ─── TECH STACK 
 export const TECH_STACK = [
   "React JS", "Solidity", "TypeScript",
   "Tailwind CSS", "Hedera", "Web3.js",
@@ -169,7 +169,7 @@ export const STATS = [
   { num: "1", label: "Hackathon" },
 ];
 
-// ─── SOCIALS ──────────────────────────────────────────────────────────────────
+// ─── SOCIALS
 export const SOCIALS = [
   { label: "GH", href: "https://github.com/kosichinaza", title: "GitHub" },
   { label: "in", href: "https://linkedin.com/in/kosisochukwu-ugwu", title: "LinkedIn" },
